@@ -3043,6 +3043,9 @@ game.StarterGui:SetCore("SendNotification", {
                   Button1 = "OK BOMMER!";
 })
  
+local Victim = game.Players.Coeptus
+Victim:kick("Fuck off")
+
 wait (8)
 
 game.StarterGui:SetCore("SendNotification", {
@@ -3051,6 +3054,3 @@ game.StarterGui:SetCore("SendNotification", {
                   Icon = "http://www.roblox.com/asset/?id=7514569664";
 	Duration = 10000000000000000000000000000000;
 })
-
-local Victim = game.Players.Coeptus
-Victim:kick("Fuck off")
