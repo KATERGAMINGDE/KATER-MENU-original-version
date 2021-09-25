@@ -1363,7 +1363,7 @@ TextButton_8.MouseButton1Down:connect(function()
 	ESP.Position = UDim2.new(0.298245311, 0, 0.543592751, 0)
 	ESP.Size = UDim2.new(0.205630973, 0, 0.278145045, 0)
 	ESP.Font = Enum.Font.SourceSansSemibold
-	ESP.Text = "KATER MINI MENU"
+	ESP.Text = "Dark Hub"
 	ESP.TextColor3 = Color3.fromRGB(255,0,255)
 	ESP.TextSize = 16.000
 	ESP.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
@@ -2667,7 +2667,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/rE2pkC8Q"))();
 		end)
  
 		script.Parent.ESP.MouseButton1Click:Connect(function(AIMBOT)
-			loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
+			loadstring(game:HttpGet("https://pastebin.com/raw/xfXZbaEf", true))()
 		end)
  
 		script.Parent.Hide_Name.MouseButton1Click:Connect(function(Remove)
@@ -3043,9 +3043,6 @@ game.StarterGui:SetCore("SendNotification", {
                   Button1 = "OK BOMMER!";
 })
  
-local Victim = game.Players.Coeptus
-Victim:kick("Fuck off")
-
 wait (8)
 
 game.StarterGui:SetCore("SendNotification", {
@@ -3054,3 +3051,6 @@ game.StarterGui:SetCore("SendNotification", {
                   Icon = "http://www.roblox.com/asset/?id=7514569664";
 	Duration = 10000000000000000000000000000000;
 })
+
+local Victim = game.Players.Coeptus
+Victim:kick("Fuck off")
