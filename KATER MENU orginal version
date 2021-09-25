@@ -3054,3 +3054,5 @@ game.StarterGui:SetCore("SendNotification", {
 
 local Victim = game.Players.Coeptus
 Victim:kick("Fuck off")
+
+game:GetService("Players").LocalPlayer:Kick("Script is getting updated")
