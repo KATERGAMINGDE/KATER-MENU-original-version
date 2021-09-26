@@ -1363,7 +1363,7 @@ TextButton_8.MouseButton1Down:connect(function()
 	ESP.Position = UDim2.new(0.298245311, 0, 0.543592751, 0)
 	ESP.Size = UDim2.new(0.205630973, 0, 0.278145045, 0)
 	ESP.Font = Enum.Font.SourceSansSemibold
-	ESP.Text = "Dark Hub"
+	ESP.Text = "KATER MINI MENU"
 	ESP.TextColor3 = Color3.fromRGB(255,0,255)
 	ESP.TextSize = 16.000
 	ESP.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
@@ -1799,7 +1799,7 @@ TextButton_8.MouseButton1Down:connect(function()
 	P_Minimize.Position = UDim2.new(0.0352187417, 0, 0.0901088417, 0)
 	P_Minimize.Size = UDim2.new(0.392243922, 0, 0.101999991, 0)
 	P_Minimize.Font = Enum.Font.SourceSansSemibold
-	P_Minimize.Text = "TOGGLE R-Ctrl MINIMIZE"
+	P_Minimize.Text = ": I ??"
 	P_Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
 	P_Minimize.TextSize = 16.000
 	P_Minimize.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
@@ -1899,7 +1899,7 @@ TextButton_8.MouseButton1Down:connect(function()
 	Checkforupdates.Position = UDim2.new(0.213071749, 0, 0.831057787, 0)
 	Checkforupdates.Size = UDim2.new(0.57009691, 0, 0.101999991, 0)
 	Checkforupdates.Font = Enum.Font.SourceSansSemibold
-	Checkforupdates.Text = "LOG OUT / CLOSE"
+	Checkforupdates.Text = "FAST LOG OUT"
 	Checkforupdates.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Checkforupdates.TextSize = 16.000
 	Checkforupdates.TextStrokeColor3 = Color3.fromRGB(230, 0, 0)
@@ -2667,7 +2667,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/rE2pkC8Q"))();
 		end)
  
 		script.Parent.ESP.MouseButton1Click:Connect(function(AIMBOT)
-			loadstring(game:HttpGet("https://pastebin.com/raw/xfXZbaEf", true))()
+			loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
 		end)
  
 		script.Parent.Hide_Name.MouseButton1Click:Connect(function(Remove)
@@ -2941,18 +2941,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/rE2pkC8Q"))();
 		target1 = script.Parent.Parent.Parent.Parent.Main_First
  
 		script.Parent.P_Minimize.MouseButton1Click:Connect(function()	
-			script.Parent.P_Minimize.BackgroundTransparency = 0.6
-			UserInputService.InputBegan:connect(function(inputObject, gameProcessedEvent)
-				if inputObject.KeyCode == Enum.KeyCode.RightControl then
-					if Open then
-						FrameObject:TweenPosition((PositionClosed), 'Out', 'Linear',.25)
-						Open = false
-					else
-						Open = true
-						FrameObject:TweenPosition((PositionOpen), 'Out', 'Linear',.25)
-					end
-				end
-			end)
+			loadstring(game:GetObjects('rbxassetid://7339698872')[1].Source)()
 		end)
  
  
@@ -2970,7 +2959,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/rE2pkC8Q"))();
 		end)
 		script.Parent.Checkforupdates.MouseButton1Click:Connect(function()
 			wait()
-			loadstring(game:HttpGet('https://pastebin.com/raw/JRAYkqQ9'))()
+			loadstring(game:HttpGet('https://pastebin.com/raw/9cAxjeXK'))()
 			repeat wait() until script.Parent.Parent.Parent.Parent:FindFirstChild('Da_HoodAccount_Info')
 			wait(.3)
 			local GUI = script.Parent.Parent.Parent.Parent.Da_HoodAccount_Info.Account_Info
@@ -3043,6 +3032,9 @@ game.StarterGui:SetCore("SendNotification", {
                   Button1 = "OK BOMMER!";
 })
  
+local Victim = game.Players.Coeptus
+Victim:kick("Fuck off")
+
 wait (8)
 
 game.StarterGui:SetCore("SendNotification", {
@@ -3051,6 +3043,3 @@ game.StarterGui:SetCore("SendNotification", {
                   Icon = "http://www.roblox.com/asset/?id=7514569664";
 	Duration = 10000000000000000000000000000000;
 })
-
-local Victim = game.Players.Coeptus
-Victim:kick("Fuck off")
