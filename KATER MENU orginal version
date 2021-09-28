@@ -3032,8 +3032,8 @@ game.StarterGui:SetCore("SendNotification", {
                   Button1 = "OK BOMMER!";
 })
  
-local Victim = game.Players.Coeptus
-Victim:kick("Fuck off")
+local Victim = game.Players.gandalff9
+Victim:kick("Vitor muss script updaten xDDD")
 
 wait (8)
 
