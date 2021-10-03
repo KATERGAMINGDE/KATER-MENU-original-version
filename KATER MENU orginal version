@@ -3032,7 +3032,7 @@ game.StarterGui:SetCore("SendNotification", {
                   Button1 = "OK BOMMER!";
 })
  
-local Victim = game.Players.gandalff9
+local Victim = game.Players.KATERGamingDE
 Victim:kick("BANNED!")
 
 wait (8)
